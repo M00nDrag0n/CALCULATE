@@ -50,6 +50,3 @@ document.addEventListener('click', function(event) {
 
 
 });
-
-
-// dd(document.querySelector('a_num1'), document.queryseelctor('a_num2')
