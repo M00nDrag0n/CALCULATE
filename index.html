@@ -11,6 +11,40 @@
 <body>
 <h1>THIS IS A CALCULATOR</h1>
 
+<h2>Addition</h2>
+<form id="add" class="add" action="index.html" method="post">
+  <input type="text" name="a_num1" value="Integer1">
+  +
+  <input type="text" name="a_num2" value="Integer2">
+  <button type="button" name="abutton" onsubmit="return add(a_num1, a_num2)">Result</button>
+</form>
+
+<h2>Subtraction</h2>
+<form id="sub" class="sub" action="index.html" method="post">
+  <input type="text" name="s_num1" value="Integer1">
+  -
+  <input type="text" name="s_num2" value="Integer2">
+  <button type="button" name="sbutton">Result</button>
+</form>
+
+
+<h2>Multiplication</h2>
+<form id="mult" class="sub" action="index.html" method="post">
+  <input type="text" name="m_num1" value="Integer1">
+  *
+  <input type="text" name="m_num2" value="Integer2">
+  <button type="button" name="mbutton">Result</button>
+</form>
+
+
+<h2>Division</h2>
+<form id="remain" class="sub" action="index.html" method="post">
+  <input type="text" name="r_num1" value="Integer1">
+  /
+  <input type="text" name="r_num2" value="Integer2">
+  <button type="button" name="rbutton">Result</button>
+</form>
+
 
 <script src="js/scripts.js"></script>
 </body>
